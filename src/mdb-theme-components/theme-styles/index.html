@@ -1,0 +1,7 @@
+[#if configuration.enableRtl == true]
+<link rel="stylesheet" href="[resources:mdb.rtl.min.css]">
+[#elseif configuration.darkTheme == true]
+<link rel="stylesheet" href="[resources:mdb.dark.min.css]">
+[#else]
+<link rel="stylesheet" href="[resources:mdb.min.css]">
+[/#if]

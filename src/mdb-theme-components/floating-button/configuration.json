@@ -1,0 +1,141 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "primary",
+					"label": "type",
+					"name": "buttonType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "primary"
+							},
+							{
+								"value": "secondary"
+							},
+							{
+								"value": "success"
+							},
+							{
+								"value": "danger"
+							},
+							{
+								"value": "warning"
+							},
+							{
+								"value": "info"
+							},
+							{
+								"value": "light"
+							},
+							{
+								"value": "dark"
+							},
+							{
+								"value": "link"
+							},
+							{
+								"value": "outline-primary"
+							},
+							{
+								"value": "outline-secondary"
+							},
+							{
+								"value": "outline-success"
+							},
+							{
+								"value": "outline-danger"
+							},
+							{
+								"value": "outline-warning"
+							},
+							{
+								"value": "outline-info"
+							},
+							{
+								"value": "outline-light"
+							},
+							{
+								"value": "outline-dark"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "nm",
+					"label": "size",
+					"name": "buttonSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "small",
+								"value": "sm"
+							},
+							{
+								"label": "normal",
+								"value": "nm"
+							},
+							{
+								"label": "large",
+								"value": "lg"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "social-linkedin",
+					"label": "icon-name",
+					"name": "iconName",
+					"type": "text"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "",
+					"label": "link-href",
+					"name": "linkHref",
+					"type": "text"
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "_self",
+					"label": "link-target",
+					"name": "linkTarget",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "_blank"
+							},
+							{
+								"value": "_self"
+							},
+							{
+								"value": "_parent"
+							},
+							{
+								"value": "_top"
+							},
+							{
+								"value": "framename"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "",
+					"label": "framename",
+					"name": "framename",
+					"type": "text"
+				}
+			],
+			"label": "button-options"
+		}
+	]
+}

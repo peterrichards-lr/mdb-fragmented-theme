@@ -1,0 +1,90 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "w-100",
+					"label": "image-size",
+					"name": "imageSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "fit",
+								"value": "w-100"
+							},
+							{
+								"label": "original-size",
+								"value": "w-0"
+							}
+						]
+					}
+				},
+				{
+			    	"dataType": "string",
+					"defaultValue": "primary",
+					"label": "type",
+					"name": "buttonType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "primary"
+							},
+							{
+								"value": "secondary"
+							},
+							{
+								"value": "success"
+							},
+							{
+								"value": "danger"
+							},
+							{
+								"value": "warning"
+							},
+							{
+								"value": "info"
+							},
+							{
+								"value": "light"
+							},
+							{
+								"value": "dark"
+							},
+							{
+								"value": "link"
+							},
+							{
+								"value": "outline-primary"
+							},
+							{
+								"value": "outline-secondary"
+							},
+							{
+								"value": "outline-success"
+							},
+							{
+								"value": "outline-danger"
+							},
+							{
+								"value": "outline-warning"
+							},
+							{
+								"value": "outline-info"
+							},
+							{
+								"value": "outline-light"
+							},
+							{
+								"value": "outline-dark"
+							}
+						]
+					}
+				}
+			],
+			"label": "card-options"
+		}
+	]
+}

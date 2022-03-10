@@ -1,0 +1,8 @@
+[#assign isFramename = configuration.linkTarget == "framename" /]
+<div class="component-button">
+	<a class="btn btn-${configuration.buttonSize} btn-${configuration.buttonType} btn-floating" href="${configuration.linkHref}" target="${isFramename?string(configuration.framename,configuration.linkTarget)}" id="fragment-${fragmentEntryLinkNamespace}-button">
+		<span>
+			[@clay["icon"] symbol="${configuration.iconName}" /]
+		</span>
+	</a>
+</div>

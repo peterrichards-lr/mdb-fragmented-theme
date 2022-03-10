@@ -1,0 +1,94 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"dataType": "string",
+					"defaultValue": "primary",
+					"label": "type",
+					"name": "buttonType",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "primary"
+							},
+							{
+								"value": "secondary"
+							},
+							{
+								"value": "success"
+							},
+							{
+								"value": "danger"
+							},
+							{
+								"value": "warning"
+							},
+							{
+								"value": "info"
+							},
+							{
+								"value": "light"
+							},
+							{
+								"value": "dark"
+							},
+							{
+								"value": "link"
+							},
+							{
+								"value": "outline-primary"
+							},
+							{
+								"value": "outline-secondary"
+							},
+							{
+								"value": "outline-success"
+							},
+							{
+								"value": "outline-danger"
+							},
+							{
+								"value": "outline-warning"
+							},
+							{
+								"value": "outline-info"
+							},
+							{
+								"value": "outline-light"
+							},
+							{
+								"value": "outline-dark"
+							}
+						]
+					}
+				},
+				{
+					"dataType": "string",
+					"defaultValue": "nm",
+					"label": "size",
+					"name": "buttonSize",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"label": "small",
+								"value": "sm"
+							},
+							{
+								"label": "normal",
+								"value": "nm"
+							},
+							{
+								"label": "large",
+								"value": "lg"
+							}
+						]
+					}
+				}
+			],
+			"label": "button-options"
+		}
+	]
+}

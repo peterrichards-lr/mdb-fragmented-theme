@@ -1,0 +1,23 @@
+{
+	"fieldSets": [
+		{
+			"label": "Styles",
+			"fields": [
+				{
+					"name": "darkTheme",
+					"label": "Dark Theme",
+					"description": "Determines if the dark theme is used",
+					"type": "checkbox",
+					"defaultValue": false
+				},
+				{
+					"name": "enableRtl",
+					"label": "Right-to-Left",
+					"description": "Determines if the right to left is used",
+					"type": "checkbox",
+					"defaultValue": false
+				}
+			]
+		}
+	]
+}
