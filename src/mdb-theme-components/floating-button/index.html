@@ -1,7 +1,14 @@
 [#assign isFramename = configuration.linkTarget == "framename" /]
+[#if configuration.buttonSize == "sm" ]
+	[#assign fontSize = "1rem;" /]
+[#elseif configuration.buttonSize == "lg" ]
+	[#assign fontSize = "1.6rem;" /]
+[#else]
+	[#assign fontSize = "1.2rem;" /]
+[/#if]
 <div class="component-button">
-	<a class="btn btn-${configuration.buttonSize} btn-${configuration.buttonType} btn-floating" href="${configuration.linkHref}" target="${isFramename?string(configuration.framename,configuration.linkTarget)}" id="fragment-${fragmentEntryLinkNamespace}-button">
-		<span>
+	<a class="btn btn-${configuration.buttonSize} btn-${configuration.buttonType} btn-floating d-flex" href="${configuration.linkHref}" target="${isFramename?string(configuration.framename,configuration.linkTarget)}" id="fragment-${fragmentEntryLinkNamespace}-button">
+		<span class="m-auto" style="font-size: ${fontSize}">
 			[@clay["icon"] symbol="${configuration.iconName}" /]
 		</span>
 	</a>
